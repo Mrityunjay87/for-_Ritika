@@ -1,0 +1,23 @@
+Step,Data,XPATH,Event
+Enter Username,wladmin,"driver.findElement(By.xpath(""//input[@id='isc_U']""))",send_key
+Enter Password,wladmin,"driver.findElement(By.xpath(""//input[@id='isc_Z']""))",send_key
+Click on Login,,"driver.findElement(By.xpath(""//div[@id='isc_R']""))",click
+Click on Application,,"driver.findElement(By.xpath(""//option[contains(text(),'Plan and Build Application')]""))",click
+Click on Select,,"driver.findElement(By.xpath(""//div[@id='isc_6']""))",click
+Click on Create Order,,"driver.findElement(By.xpath(""//td[contains(text(),'Create Order')]""))",click
+Click on Select SO,,"driver.findElement(By.xpath(""//td[contains(text(),'Select SO')]""))",click
+Click on SO7,,"driver.findElement(By.xpath(""//td[@class='CwMEIDefItem']//div[contains(text(),'SO7')]""))",click
+Click on Create SO7,,"driver.findElement(By.xpath(""//div[contains(text(),'Create SO7')]""))",click
+Click on button,,"driver.findElement(By.xpath(""//td[@class='selectItemPickerIcon']""))
+",click
+Click on ESC,,"driver.findElement(By.xpath(""//div[contains(text(),'ESC')]""))",click
+Click on button,,"driver.findElement(By.xpath(""//td[@class='selectItemPickerIcon']""))
+",click
+Click on Mumbai,,"driver.findElement(By.xpath(""//td[@class='pickListCellDark']//div[contains(text(),'Andhra Pardesh')]""))",click
+Click On search,,"driver.findElement(By.xpath(""/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[10]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/form[1]/table[1]/tbody[1]/tr[2]/td[2]/table[1]/tbody[1]/tr[1]/td[2]""))",click
+Enter Site ID,INAPCDDPZPHSNB0002,"driver.findElement(By.xpath(""/html[1]/body[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/table[1]/tbody[1]/tr[2]/td[1]/input[1]""))",send_key
+Click on ok,,"driver.findElement(By.xpath(""//*[@id=""isc_AB""]/table/tbody/tr/td""))",keypress
+Click on Site,,"driver.findElement(By.xpath(""//div[contains(text(),'INAPCDDPZPHSNB0002')]""))",click
+Click on Create SO,,"driver.findElement(By.xpath(""//div[contains(text(),'Create SO')]""))",click
+Last Screenshot,,"driver.findElement(By.xpath(""//div[contains(text(),'Create SO')]""))",screenshot
+Gettext,,"driver.findElement(By.xpath(""//*[contains(text(),'ESC SO7 created with ID ::')]""))",get_text
